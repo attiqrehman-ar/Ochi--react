@@ -20,7 +20,7 @@ function LandingPage() {
         ))}
          <div className='start flex items-center gap-2' >
         <div className='px-5 py-2 border-[2px] rounded-full border-zind-500 text-sm capitalize'> Start the project</div>
-        <div className='w-10 h-10 flex justify-center items-center border-[2px] rounded-full border-zind-500'>
+        <div className='w-10 h-10 flex justify-center items-center border-[2px] rounded-full border-zind-700'>
             <span className='rotate-45'>
             <FaArrowUpLong />
             </span>
