@@ -8,7 +8,11 @@ function LandingPage() {
         {["We Create ", "Eye-Opening ", "Projects"].map((text, index) => {
              return (
              <div key={index} className='masker'>
-             <h1 className='uppercase text-[7.5vw] leading-[6vw] tracking-tighter font-regular'>{text}</h1>
+                <div className='w-fit flex items-center'>
+                    {index=== 1 && <div className='w-[9vw] h-[4vw] relative  bg-red-500'></div>}
+             <h1 className='uppercase text-[6vw] leading-[6vw] tracking-tighter font-regular'>{text}</h1>
+
+                </div>
              </div>
              );
         })}
@@ -19,8 +23,8 @@ function LandingPage() {
             <p className='text-md font-light tracking-tight leading-none'>{text}</p>
         ))}
          <div className='start flex items-center gap-2' >
-        <div className='px-5 py-2 border-[2px] rounded-full border-zind-500 text-sm capitalize'> Start the project</div>
-        <div className='w-10 h-10 flex justify-center items-center border-[2px] rounded-full border-zind-700'>
+        <div className='px-5 py-2 border-[2px] rounded-full border-zind-500 text-md uppercase'> Start the project</div>
+        <div className='w-10 h-10 flex justify-center items-center border-[2px] rounded-full border-zind-00'>
             <span className='rotate-45'>
             <FaArrowUpLong />
             </span>
