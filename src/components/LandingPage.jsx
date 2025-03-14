@@ -9,7 +9,7 @@ function LandingPage() {
              return (
              <div key={index} className='masker'>
                 <div className='w-fit flex items-center'>
-                    {index=== 1 && <div className='w-[9vw] h-[4vw] relative  bg-red-500'></div>}
+                    {index=== 1 && <div className='w-[9vw] h-[4vw] relative  bg-red-500 rounded-md'></div>}
              <h1 className='uppercase text-[6vw] leading-[6vw] tracking-tighter font-regular'>{text}</h1>
 
                 </div>
@@ -18,7 +18,7 @@ function LandingPage() {
         })}
            
       </div>
-      <div className='border-t-[1px] border-zinc-800 mt-32 flex justify-between items-align py-5 px-20'>
+      <div className='border-t-[1px] border-zinc-800 mt-20 flex justify-between items-align py-5 px-20'>
         {["For public and private companies","From Development to Porduction Level, We Got You Covered"].map((text, index) => (
             <p className='text-md font-light tracking-tight leading-none'>{text}</p>
         ))}
