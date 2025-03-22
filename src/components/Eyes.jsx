@@ -2,7 +2,7 @@ import React from 'react'
 
 function Eyes() {
   return (
-    <div className=''>
+    <div className='w-full h-screen bg-black'>
       Eyes
       
     </div>
