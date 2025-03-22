@@ -16,7 +16,8 @@ function About() {
             <div className="w-2 h-2 bg-white rounded-full"></div>
           </button>
         </div>
-        <div className="w-1/2 h-[70vh] bg-red-500 rounded-2xl"></div>
+        <div className="w-1/2 h-[70vh] bg-red-500 rounded-2xl overflow-hidden ">
+        <img src="https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-1326x1101.png" alt="" /></div>
       </div>
     </div>
   );
