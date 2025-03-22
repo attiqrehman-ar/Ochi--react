@@ -10,7 +10,8 @@ function LandingPage() {
              return (
              <div key={index} className='masker'>
                 <div className='w-fit flex items-center'>
-                    {index=== 1 && <motion.div initial={{width: 0}} animate={{width:"9vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration:1}} className='w-[9vw] h-[4vw] relative  bg-red-500 rounded-md'></motion.div>}
+                    {index=== 1 && <motion.div initial={{width: 0}} animate={{width:"9vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration:1}} className='w-[8vw] h-[4vw] relative  rounded-md overflow-hidden'>
+                      <img src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="" /></motion.div>}
              <h1 className='uppercase text-[6vw] leading-[6vw] tracking-tighter font-regular'>{text}</h1>
 
                 </div>
