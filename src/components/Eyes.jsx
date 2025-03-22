@@ -8,7 +8,7 @@ function Eyes() {
       <div className=' flex items-center justify-center w-[15vw] h-[15vw] bg-zinc-100 rounded-full'>
         <div className=' w-2/3 h-2/3 bg-zinc-900 rounded-full'></div>
       </div>
-      <div className=' w-[15vw] h-[15vw] bg-zinc-100 rounded-full'>
+      <div className=' flex items-center justify-center w-[15vw] h-[15vw] bg-zinc-100 rounded-full'>
       <div className=' w-2/3 h-2/3 bg-zinc-900 rounded-full'></div>
 
       </div>
