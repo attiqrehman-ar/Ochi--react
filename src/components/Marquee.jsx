@@ -3,7 +3,7 @@ import React from 'react'
 
 function Marquee() {
   return (
-    <div className='w-full bg-[#004D43] py-20 rounded-tr-3xl rounded-tl-3xl'>
+    <div data-scroll data-scroll-section data-scroll-speed=".1" className='w-full bg-[#004D43] py-20 rounded-tr-3xl rounded-tl-3xl'>
         <div className='text border-t-2 border-b-2 border-zinc-300 flex whitespace-nowrap overflow-hidden'>
             <motion.div 
                 className='flex gap-20 pr-20'
