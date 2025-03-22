@@ -9,8 +9,12 @@ function Featured() {
       </div>
       <div className='px-20'>
       <div className="cards w-full flex gap-10">
-            <div className='card w-1/2 h-[90vh] bg-red-500'  ></div>
-            <div className='card w-1/2 h-[90vh] bg-red-500'  ></div>
+            <div className='cardcontainer w-1/2 h-[75vh] rounded-lg  overflow-hidden'>
+            <div className=' card w-full h-full bg-green-500'></div>
+            </div>
+            <div className='cardcontainer w-1/2 h-[75vh] rounded-lg  overflow-hidden'>
+            <div className=' card w-full h-full bg-green-500'></div>
+            </div>
         </div>
       </div>
 
