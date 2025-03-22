@@ -19,9 +19,9 @@ function Footer() {
       <div className='w-1/2 p-20 font-["FounderGrotesk"] '>
       <h1 className='text-7xl uppercase font-semibold'>PRESENTATIONS</h1>
       <div className=' dets font-[NueueMontreal] mt-10'>
-        <a className="block text-xl font-light" href="#">Github</a>
-        <a className="block text-xl font-light" href="#">Instagram </a>
-        <a className="block text-xl font-light" href="#">Linkedin</a>
+        <a className="block text-xl font-light" href="https://github.com/attiqrehman-ar">Github</a>
+        {/* <a className="block text-xl font-light" href="#">Instagram </a> */}
+        <a className="block text-xl font-light" href="https://www.linkedin.com/in/attiq-rehman-/">Linkedin</a>
       </div>
       </div>
     </div>
