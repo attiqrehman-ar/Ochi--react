@@ -12,10 +12,10 @@ function Cards() {
        <div className=' cardcontainer w-1/2 flex gap-5 h-[50vh]' >
        <div className=' card relative flex items-center justify-center w-full rounded-lg h-full  bg-[#192826]'>
        <img className="w-32" src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg" alt="" />
-       <button className='absolute left-10 bottom-10 px-5 py-1 border-1 rounded-full'> &copy; 2024-present</button></div> 
+       <button className='absolute left-10 bottom-10 px-5 py-1 border-1 rounded-full'> Rating 5.0 on clutch</button></div> 
        <div className=' card relative  flex items-center justify-center w-full rounded-lg h-full  bg-[#192826]'>
        <img className="w-32" src="https://ochi.design/wp-content/uploads/2022/04/logo003.png" alt="" />
-       <button className='absolute left-10 bottom-10 px-5 py-1 border-1 rounded-full'> &copy; 2024-present</button></div> 
+       <button className='absolute left-10 bottom-10 px-5 py-1 border-1 rounded-full'> Business bootcamp</button></div> 
        </div>
     </div>
   )
