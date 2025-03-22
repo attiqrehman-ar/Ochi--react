@@ -2,9 +2,9 @@ import React from 'react'
 
 function Navbar() {
   const navItems = [
-    { name: "services", path: "/services" },
-    { name: "Our Work", path: "/work" },
-    { name: "About Us", path: "/about" },
+    { name: "services", path: "#services" },
+    { name: "Our Work", path: "#work" },
+    { name: "About Us", path: "#about" },
     { name: "Insights", path: "/insights" },
     { name: "Personal Profile", path: "https://attiqportfolio.vercel.app/" }
   ];

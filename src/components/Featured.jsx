@@ -6,7 +6,7 @@ function Featured() {
   const [isHovering2, setHovering2] = useState(false);
 
   return (
-    <div className='w-full py-20'>
+    <div className='w-full py-20' id="work">
       <div className='w-full px-20 border-b-[1px] border-zinc-700 pb-20 mb-10'>
         <h1 className='text-8xl font-[NueueMontreal] tracking-tight'>Featured Projects</h1>
       </div>

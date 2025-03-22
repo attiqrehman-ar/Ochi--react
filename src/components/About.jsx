@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black">
+    <div className="w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black" id="services">
       <h1 className="font-[NueueMontreal] text-[4vw] leading-[3.5vw] tracking-tight">
         We are team of Developers TO create your Ecommerce sites and make your
         business run smoothly by providing digital marketing services or Rank
