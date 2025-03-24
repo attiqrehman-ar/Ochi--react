@@ -19,6 +19,7 @@ function Navbar() {
           <path d="M41.3211 19.3068L48.3804 29.7144L52.0726 29.669L44.967 19.3068L51.7881 10.4341L48.0959 10.4795L41.3211 19.3068Z" fill="currentColor"/>
         </svg>
       </div>
+      
       <div className="links flex gap-10">
         {navItems.map((item, index) => (
           <a 
